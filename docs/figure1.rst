@@ -100,5 +100,5 @@ Attacker -> Logic -> Wallet --trasfer ethers--> Attacker
 **Running Screenshots**
 
 .. image:: attack01.jpg
-    :width: 500px
+    :width: 600px
     :align: center
