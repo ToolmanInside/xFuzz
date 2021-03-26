@@ -7,7 +7,7 @@ xFuzz
     :align: center
 
 .. note::
-    **NEWS!** The exploits of the cross-contract vulnerability examples in our paper can be found at Exploits_
+    **NEWS!** The exploits of the cross-contract vulnerability examples in our paper can be found at `Here <https://xfuzz.readthedocs.io/en/latest/exploits.html>`_ .
 
 Cross-contract vulnerabilities are vulnerabilities where more than two contracts are involved by external calls. Cross-contract call itself is generally not vulnerable. However, it is prone to being leveraged by existing vulnerabilities and deceive current vulnerability detection technologies. For example, a cross-contract vulnerability is missed by existing detection tools is shown in the following code.
 
@@ -67,5 +67,3 @@ Suppliment Materials:
     ML-model.rst
     guided-fuzzing.rst
     explots.rst
-    Figure1.rst
-    Figure2.rst

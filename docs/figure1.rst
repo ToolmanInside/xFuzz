@@ -1,3 +1,3 @@
-Exploits
+Exploits of Figure 1
 ====================
 
