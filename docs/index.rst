@@ -62,7 +62,6 @@ Suppliment Materials:
 
 .. toctree::
     :maxdepth: 1
-    :titlesonly:
 
     ML-model.rst
     guided-fuzzing.rst
