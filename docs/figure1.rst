@@ -51,7 +51,7 @@ Attacker -> Logic -> Wallet --trasfer ethers--> Attacker
 
     contract Logic{
         
-        address private wallet;
+        address private addr_w;
         
         event changed(address _exec, uint  _value);
         
@@ -63,11 +63,11 @@ Attacker -> Logic -> Wallet --trasfer ethers--> Attacker
         
         function  withdraw( address _exec, uint _value) internal
         {
-            Wallet(wallet).withdraw(_exec, _value);
+            Wallet(addr_w).withdraw(_exec, _value);
         }
         
-        constructor(  address _wallet ) payable {
-            wallet = _wallet;
+        constructor(  address _addr ) payable {
+            addr_w = _addr;
         }
         
         function getBalance() public view returns (uint)
@@ -100,5 +100,5 @@ Attacker -> Logic -> Wallet --trasfer ethers--> Attacker
 **Running Screenshots**
 
 .. image:: attack01.jpg
-    :width: 600px
+    :width: 650px
     :align: center
