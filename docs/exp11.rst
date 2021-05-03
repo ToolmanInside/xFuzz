@@ -1,25 +1,27 @@
 ###############################
-Exploits of Vulnerability 1
+Exploits of Vulnerability 11
 ###############################
 
 **Contract Address**
 
-0x0002325fCaAAc6Ebf1254a626589147bDe1a2394
+0x9517c7c2aaf069897cd975fe9be5b68f0ba8d7e4
+
+**Vulnerability Type**
+
+Cross-contract Reentrancy
 
 **Contract Name**
 
-HorseyToken
+HorseyExchange
 
 **Attack Flow**
 
-.. image:: exp1.png
+.. image:: ex10.png
     :width: 650px
     :align: center
 
-
-
 **Running Screenshots**
 
-.. image:: run01.jpg
+.. image:: run10.png
     :width: 650px
     :align: center
