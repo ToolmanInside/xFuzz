@@ -51,7 +51,7 @@ We train a machine leaning model to provide suggestions on deciding a function i
 - identify exploitable paths which are related to internal callers
 - identify exploitable paths which are related to external callers 
 
-In this website, we will keep updating suppliment materials as well as our proposed tool. 
+In this website, we will keep updating suppliment materials. 
 
 
 Suppliment Materials:
