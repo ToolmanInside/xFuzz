@@ -6,10 +6,6 @@ xFuzz
     :alt: Solidity logo
     :align: center
 
-.. note::
-    **Response to ISSTA 2021!** 
-    The exploits of the cross-contract vulnerability examples in our paper can be found at `Here <https://xfuzz.readthedocs.io/en/latest/exploits.html>`_ .
-
 Cross-contract vulnerabilities are vulnerabilities where more than two contracts are involved by external calls. Cross-contract call itself is generally not vulnerable. However, it is prone to being leveraged by existing vulnerabilities and deceive current vulnerability detection technologies. For example, a cross-contract vulnerability is missed by existing detection tools is shown in the following code.
 
 .. code-block:: Solidity
